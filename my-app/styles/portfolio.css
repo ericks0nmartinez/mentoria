@@ -1,0 +1,113 @@
+:root {
+    --color-title: #2b2b2b;
+    --color-text: #a2a2a2;
+    --color-icons: #ffb80d;
+    --color-button: #ffae00;
+    --background-styles: #ffffff;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {   
+    font-family: 'Roboto', sans-serif;
+}
+
+main{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    background-color: #f0eff6; 
+}
+
+section {
+    background-color: var(--background-styles);
+}
+
+.perfil{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.persona{
+    margin: 2rem 0 1rem;
+    border-radius: 50%;
+    width: 50%;
+    background: #f5f5f5;
+}
+
+.perfil p{
+margin-top: 1rem;
+}
+
+.rede-social {
+    border-bottom: 1px solid #dbdbdb;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+.rede-social img{
+   width: 16px;
+   padding: 5px;
+   background: var(--color-button);
+   border-radius: 50%;
+   margin: 1rem 5px;
+}
+
+.content{
+    padding:10px 50px 0 50px;
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+}
+
+h1 {
+    font-size: 42px;
+    color: var(--color-title);
+    margin-top: 46px;
+}
+
+h1 span{
+    color: var(--color-icons);
+}
+
+.content p{
+    color: var(--color-text);
+    line-height: 16px;
+    margin-top: 32px;
+}
+
+.content button {
+    color: rgb(47, 47, 47);
+    border: none;
+    border-radius: 5px;
+    background: var(--color-button);
+    display: flex;
+    align-items: center;
+    padding:10px 20px;
+    margin-top: 3rem;
+}
+
+.content div img {
+    padding-left: 5px;
+    width: 16px;
+}
+
+.content img {
+    width: 300px;
+}
+
+.menu{
+    width: 10%;
+}
+
+.menu li {
+    list-style-type: none;
+}
